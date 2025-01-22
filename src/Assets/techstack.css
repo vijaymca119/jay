@@ -1,0 +1,22 @@
+.tech-icons {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tech-icons:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+.tech-icons svg {
+    font-size: 3rem; /* Adjust icon size */
+    color: #6c63ff; /* Custom icon color */
+}
+
+.tech-icons p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333; /* Label text color */
+}

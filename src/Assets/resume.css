@@ -1,0 +1,31 @@
+.resume-section {
+    background-color: #f9f9f9; /* Light background */
+    padding: 60px 0;
+}
+
+.resume {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add border to the PDF container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Custom scrollbar */
+.resume::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.resume::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+    border-radius: 4px;
+}
+
+.resume::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 4px;
+}
+
+.resume::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+}
