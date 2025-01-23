@@ -8,7 +8,8 @@ import Footer from "./components/Footer";
 import PdfViewer from './components/Resume/PdfViewer.tsx';
 import "./style.css";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 
 import {
